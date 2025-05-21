@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - PescaAventura</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <!-- Additional CSS for contact page -->
+    <style>
+        /* Contact page specific styles */
+        .contact-section {
+            padding: var(--spacing-xl) 0;
+        }
+        
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
+        }
+        
+        .contact-form {
+            background-color: white;
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .form-group {
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+        }
+        
+        .form-control {
+            width: 100%;
+            padding: var(--spacing-sm);
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius);
+            font-family: var(--body-font);
+            transition: border-color var(--transition-speed) ease;
+        }
+        
+        .form-control:focus {
+            outline: none;
+            border-color: var(--secondary-color);
+            box-shadow: 0 0 0 3px rgba(0, 180, 216, 0.2);
+        }
+        
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .contact-info {
+            background-color: var(--primary-color);
+            color: white;
+            padding: var(--spacing-lg);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-info h3 {
+            color: white;
+            position: relative;
+            padding-bottom: var(--spacing-sm);
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        .contact-info h3::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 2px;
+            background-color: var(--accent-color);
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .contact-item i {
+            margin-right: var(--spacing-md);
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            width: 20px;
+            text-align: center;
+        }
+        
+        .map-container {
+            margin-top: var(--spacing-xl);
+            height: 400px;
+            border-radius: var(--border-radius);
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Animation for contact form */
+        .form-group {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.5s ease forwards;
+        }
+        
+        .form-group:nth-child(1) { animation-delay: 0.1s; }
+        .form-group:nth-child(2) { animation-delay: 0.2s; }
+        .form-group:nth-child(3) { animation-delay: 0.3s; }
+        .form-group:nth-child(4) { animation-delay: 0.4s; }
+        .form-group:nth-child(5) { animation-delay: 0.5s; }
+        
+        /* Responsive design for contact page */
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                order: -1;
+                margin-bottom: var(--spacing-lg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header class="site-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <i class="fas fa-fish"></i>
+                    <span>PescaAventura</span>
+                </a>
+            </div>
+            
+            <!-- Mobile menu toggle -->
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            
+            <!-- Navigation -->
+            <nav class="main-nav">
+                <ul class="nav-links">
+                    <li class="nav-item"><a href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a href="tecnicas.html">Técnicas</a></li>
+                    <li class="nav-item"><a href="equipos.html">Equipos</a></li>
+                    <li class="nav-item"><a href="destinos.html">Destinos</a></li>
+                    <li class="nav-item active"><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Page title section -->
+    <section class="hero-section" style="height: 40vh;">
+        <div class="hero-content">
+            <h1 class="animated-title">Contacto</h1>
+            <p class="animated-subtitle">Estamos aquí para ayudarte con todas tus preguntas sobre pesca</p>
+        </div>
+    </section>
+    
+    <!-- Main content area -->
+    <main class="site-main">
+        <div class="container">
+            <section class="contact-section">
+                <div class="contact-container">
+                    <!-- Contact form -->
+                    <div class="contact-form">
+                        <h2 class="section-title">Envíanos un mensaje</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Teléfono (opcional)</label>
+                                <input type="tel" id="phone" class="form-control">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <select id="subject" class="form-control" required>
+                                    <option value="">Selecciona un asunto</option>
+                                    <option value="info">Información general</option>
+                                    <option value="destinos">Consulta sobre destinos</option>
+                                    <option value="equipos">Consulta sobre equipos</option>
+                                    <option value="soporte">Soporte técnico</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" class="form-control" required></textarea>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="btn primary-btn">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact information -->
+                    <div class="contact-info">
+                        <h3>Información de contacto</h3>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p>Calle Pescador, 123</p>
+                                <p>08001 Barcelona, España</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p>+34 600 123 456</p>
+                                <p>Lun - Vie: 9:00 - 18:00</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p>info@pescaaventura.es</p>
+                                <p>soporte@pescaaventura.es</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <p><strong>Horario de atención</strong></p>
+                                <p>Lunes a Viernes: 9:00 - 18:00</p>
+                                <p>Sábados: 10:00 - 14:00</p>
+                                <p>Domingos: Cerrado</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links" style="margin-top: var(--spacing-lg);">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>

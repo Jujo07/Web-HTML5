@@ -1,0 +1,123 @@
+.mvp-body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e9f2fc;
+    color: #1a1a1a;
+    margin: 0;
+  }
+  
+  .mvp-header {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 1rem;
+  }
+  
+  .mvp-header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 2rem;
+  }
+  
+  .mvp-header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .mvp-header nav a.active,
+  .mvp-header nav a:hover {
+    border-bottom: 2px solid #fff;
+  }
+  
+  .mvp-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+  }
+  
+  .mvp-hero {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    background-color: #d0e5ff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    flex-wrap: wrap;
+  }
+  
+  .mvp-hero img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .hero-text h2 {
+    color: #003366;
+  }
+  
+  .mvp-stats ul {
+    list-style: none;
+    padding: 0;
+    background: #f0f8ff;
+    border-left: 5px solid #0050b3;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .mvp-gallery {
+    margin-top: 3rem;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .gallery-grid img {
+    width: calc(50% - 0.5rem);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  .mvp-biography,
+  .mvp-impact {
+    margin-top: 3rem;
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #003366;
+    margin-top: 1rem;
+    border-left: 4px solid #003366;
+    padding-left: 1rem;
+  }
+  
+  .mvp-video iframe {
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+  .mvp-footer {
+    background-color: #002244;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  .gallery-grid img {
+    width: 300px;           /* o 100%, si vols que s’adapti al contenidor */
+    height: 200px;
+    object-fit: cover;      /* retalla la imatge per omplir la mida sense deformar-la */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  

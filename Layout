@@ -1,0 +1,94 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f0f8ff" />
+  
+  <!-- Desktop Layout -->
+  <g id="desktop-layout">
+    <text x="400" y="20" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Desktop Layout</text>
+    
+    <!-- Header -->
+    <rect x="50" y="40" width="700" height="60" fill="#0077b6" rx="5" />
+    <text x="400" y="75" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Header</text>
+    
+    <!-- Navigation -->
+    <rect x="100" y="50" width="600" height="40" fill="#00b4d8" rx="5" />
+    <text x="400" y="75" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Navigation Menu</text>
+    <line x1="200" y1="50" x2="200" y2="90" stroke="white" stroke-width="1" />
+    <line x1="300" y1="50" x2="300" y2="90" stroke="white" stroke-width="1" />
+    <line x1="400" y1="50" x2="400" y2="90" stroke="white" stroke-width="1" />
+    <line x1="500" y1="50" x2="500" y2="90" stroke="white" stroke-width="1" />
+    <line x1="600" y1="50" x2="600" y2="90" stroke="white" stroke-width="1" />
+    
+    <!-- Hero Section -->
+    <rect x="50" y="110" width="700" height="150" fill="#48cae4" rx="5" />
+    <text x="400" y="185" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Hero Section / Banner</text>
+    
+    <!-- Main Content -->
+    <rect x="50" y="270" width="460" height="220" fill="#90e0ef" rx="5" />
+    <text x="280" y="380" font-family="Arial" font-size="16" text-anchor="middle">Main Content</text>
+    
+    <!-- Sidebar -->
+    <rect x="520" y="270" width="230" height="220" fill="#ade8f4" rx="5" />
+    <text x="635" y="380" font-family="Arial" font-size="16" text-anchor="middle">Sidebar</text>
+    
+    <!-- Footer -->
+    <rect x="50" y="500" width="700" height="60" fill="#0077b6" rx="5" />
+    <text x="400" y="535" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Footer</text>
+  </g>
+  
+  <!-- Mobile Layout -->
+  <g id="mobile-layout" transform="translate(0, 0) scale(0.5)">
+    <text x="1000" y="40" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Mobile Layout</text>
+    
+    <!-- Header -->
+    <rect x="900" y="80" width="200" height="60" fill="#0077b6" rx="5" />
+    <text x="1000" y="115" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Header</text>
+    
+    <!-- Hamburger Menu Icon -->
+    <rect x="1060" y="95" width="30" height="5" fill="white" rx="2" />
+    <rect x="1060" y="105" width="30" height="5" fill="white" rx="2" />
+    <rect x="1060" y="115" width="30" height="5" fill="white" rx="2" />
+    
+    <!-- Hero Section -->
+    <rect x="900" y="150" width="200" height="100" fill="#48cae4" rx="5" />
+    <text x="1000" y="200" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Hero Section</text>
+    
+    <!-- Content Sections Stacked -->
+    <rect x="900" y="260" width="200" height="150" fill="#90e0ef" rx="5" />
+    <text x="1000" y="335" font-family="Arial" font-size="16" text-anchor="middle">Main Content</text>
+    
+    <rect x="900" y="420" width="200" height="100" fill="#ade8f4" rx="5" />
+    <text x="1000" y="470" font-family="Arial" font-size="16" text-anchor="middle">Sidebar Content</text>
+    
+    <!-- Footer -->
+    <rect x="900" y="530" width="200" height="60" fill="#0077b6" rx="5" />
+    <text x="1000" y="565" font-family="Arial" font-size="16" text-anchor="middle" fill="white">Footer</text>
+  </g>
+  
+  <!-- Flow Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+  
+  <line x1="400" y1="100" x2="400" y2="110" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="400" y1="260" x2="400" y2="270" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <line x1="400" y1="490" x2="400" y2="500" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Legend -->
+  <rect x="50" y="570" width="15" height="15" fill="#0077b6" />
+  <text x="75" y="583" font-family="Arial" font-size="12" text-anchor="start">Header/Footer</text>
+  
+  <rect x="170" y="570" width="15" height="15" fill="#00b4d8" />
+  <text x="195" y="583" font-family="Arial" font-size="12" text-anchor="start">Navigation</text>
+  
+  <rect x="290" y="570" width="15" height="15" fill="#48cae4" />
+  <text x="315" y="583" font-family="Arial" font-size="12" text-anchor="start">Hero Section</text>
+  
+  <rect x="410" y="570" width="15" height="15" fill="#90e0ef" />
+  <text x="435" y="583" font-family="Arial" font-size="12" text-anchor="start">Main Content</text>
+  
+  <rect x="530" y="570" width="15" height="15" fill="#ade8f4" />
+  <text x="555" y="583" font-family="Arial" font-size="12" text-anchor="start">Sidebar</text>
+</svg>

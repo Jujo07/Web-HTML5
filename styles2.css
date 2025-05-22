@@ -1,0 +1,71 @@
+.anotadors-body {
+    background-color: #e0f7fa;
+    color: #1b5e20;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .anotadors-content {
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .intro h2 {
+    color: #004d40;
+  }
+  
+  .intro p {
+    color: #33691e;
+    font-size: 1.1rem;
+  }
+  
+  .jugador {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid #81d4fa;
+    background-color: #f1f8e9;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+  
+  .jugador img {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #ffee58;
+    background-color: white;
+  }
+  
+  .jugador .info {
+    flex: 1;
+  }
+  
+  .jugador h3 {
+    color: #0d47a1;
+    margin-bottom: 0.5rem;
+  }
+  
+  .jugador p {
+    color: #33691e;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .main-footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #004d40;
+    color: #ffffff;
+  }
+  

@@ -1,0 +1,96 @@
+body.inicio {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .main-header {
+    background-color: #b30000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav-links li a.active,
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: #222;
+  }
+  
+  .hero h2 {
+    color: #ff3333;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .jugadors-estrella {
+    padding: 40px 20px;
+    background-color: #1a1a1a;
+  }
+  
+  .jugadors-estrella h2 {
+    text-align: center;
+    color: #ff3333;
+    margin-bottom: 30px;
+  }
+  
+  .jugadors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .jugador {
+    background-color: #2b2b2b;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  }
+  
+  .jugador img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .jugador h3 {
+    margin-top: 10px;
+    color: #ff3333;
+  }
+  
+  .main-footer {
+    background-color: #b30000;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+  }
+  

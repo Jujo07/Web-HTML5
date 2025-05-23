@@ -1,4 +1,8 @@
 # Web-HTML5
+Layout:
+
+![image](https://github.com/user-attachments/assets/d128ddbf-03ee-4e22-a9dd-ab8b8da5eb99)
+
 
 1. Planificació del projecte
 
@@ -101,3 +105,16 @@
     Imatges guardades a les carpetes img/ o imagenes/.
 
     Format consistent i mida adaptada.
+
+![embiid_mvp_1](https://github.com/user-attachments/assets/a8d4f3b2-e9fe-49bf-a2df-08ba76889e4b)
+![embiid](https://github.com/user-attachments/assets/810b760c-78d8-46cd-8f9d-18cb931d18e9)
+![joker](https://github.com/user-attachments/assets/c531a212-7b1f-450c-a951-a4372a29165a)
+![jokic](https://github.com/user-attachments/assets/aab230f7-058f-4ee2-9d4e-f294922cf1af)
+![luka](https://github.com/user-attachments/assets/4ca2ac41-cd52-4aac-a0bd-e744bc39a9bc)
+![mvp](https://github.com/user-attachments/assets/139d3e9e-8b2a-4f33-b973-b6d875797fb8)
+![shai](https://github.com/user-attachments/assets/87de0e4e-8961-4dfc-a12b-c06b9269d507)
+![tatu anillo](https://github.com/user-attachments/assets/a96e4e69-6a33-44ef-961b-514e9b31b6c1)
+
+Faltan algunes imatges pero estan en la carpeta imagenes en el repositorio del github.
+
+   

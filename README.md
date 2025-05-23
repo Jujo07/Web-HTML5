@@ -13,14 +13,24 @@ Layout:
     Estructura bàsica:
 
         index.html (pàgina inicial)
+![Captura de pantalla de 2025-05-23 10-49-13](https://github.com/user-attachments/assets/56c0c147-9033-465d-9152-d1eaff855da2)
 
         mvp.html (jugador MVP)
 
+![Captura de pantalla de 2025-05-23 10-49-29](https://github.com/user-attachments/assets/d736a7d5-3021-4ffb-8559-b17c3a97a509)
+
         anotadors.html (màxims anotadors)
+        
+![Captura de pantalla de 2025-05-23 10-49-42](https://github.com/user-attachments/assets/45aa1adb-b95c-4812-ada3-5f9d1c43f416)
 
         contacte.html (formulari de contacte)
+![Captura de pantalla de 2025-05-23 10-49-49](https://github.com/user-attachments/assets/bb6d46a5-c96b-4114-ad38-85d902dcae9c)
 
         styles.css (estils generals)
+![Captura de pantalla de 2025-05-23 10-49-58](https://github.com/user-attachments/assets/e5e20a01-97d8-4afc-b638-0e9e20d8c738)
+![Captura de pantalla de 2025-05-23 10-50-09](https://github.com/user-attachments/assets/f2395dd0-abe0-43c8-ac63-2fd8af90a81d)
+![Captura de pantalla de 2025-05-23 10-50-16](https://github.com/user-attachments/assets/3da39d4f-6c27-441c-a78d-335226ba8327)
+![Captura de pantalla de 2025-05-23 10-50-23](https://github.com/user-attachments/assets/4953f00c-e10a-404d-abe0-d7284e02169e)
 
 2. Creació de la pàgina principal – index.html
 
@@ -31,12 +41,19 @@ Layout:
         Títol i presentació del lloc.
 
         Imatges dels millors jugadors (Jokić, Dončić, Embiid, Tatum).
+![jokic](https://github.com/user-attachments/assets/872cbd0b-1268-4d3e-920f-4720b01a99e8)
+![luka](https://github.com/user-attachments/assets/794362fd-e94e-4214-84c0-5cae629e753f)
+![embiid](https://github.com/user-attachments/assets/ed2c0490-eff2-4fe6-8a35-7966b7cd4a3e)
+![tatu anillo](https://github.com/user-attachments/assets/111fe02e-2fbb-4281-a2df-9869919ed2e8)
 
         Enllaços de navegació cap a les altres pàgines.
 
 3. Desenvolupament de la pàgina MVP – mvp.html
 
     Contingut detallat sobre Nikola Jokić:
+   ![mvp](https://github.com/user-attachments/assets/d3e7ea14-bfde-44a0-b6f1-21dcb22c2238)
+![jokic](https://github.com/user-attachments/assets/855f0b30-aed3-44b8-b884-b9531af2f414)
+
 
         Hero section amb imatge destacada.
 
@@ -52,7 +69,7 @@ Layout:
 
     Enllaç de tornada a index.html.
 
-4. Pàgina dels Anotadors – anotadors.html
+5. Pàgina dels Anotadors – anotadors.html
 
     Colors principals: verd, groc i blau.
 
@@ -66,7 +83,7 @@ Layout:
 
     Estil visual net i coherent.
 
-5. Pàgina de Contacte – contacte.html
+6. Pàgina de Contacte – contacte.html
 
     Colors: lila i taronja.
 
@@ -78,7 +95,7 @@ Layout:
 
     Text introductori i peu de pàgina.
 
-6. Full d’estils – styles.css
+7. Full d’estils – styles.css
 
     Diferents seccions de color segons cada pàgina.
 
@@ -86,7 +103,7 @@ Layout:
 
     Classes específiques com .mvp-body, .inicio, .contacte-body.
 
-7. Navegació entre pàgines
+8. Navegació entre pàgines
 
     Menú present a totes les pàgines amb enllaços:
 
@@ -100,7 +117,7 @@ Layout:
 
     Enllaços funcionals i coherents.
 
-8. Imatges i recursos
+9. Imatges i recursos
 
     Imatges guardades a les carpetes img/ o imagenes/.
 
